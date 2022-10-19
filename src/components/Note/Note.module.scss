@@ -1,0 +1,20 @@
+.note {
+   background-color: #ffcc8e;
+   border-radius: 10px;
+   padding: 1rem;
+   min-height: 170px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   white-space: pre-wrap;
+}
+
+.note__footer {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.delete__icon {
+   cursor: pointer;
+}
