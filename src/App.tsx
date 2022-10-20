@@ -16,22 +16,17 @@ const App: React.FC = () => {
       {
          id: nanoid(),
          text: 'Моя первая заметка!',
-         date: '18.10.2022'
-      },
-      {
-         id: nanoid(),
-         text: 'Вторая заметка!',
-         date: '13.10.2022'
-      },
-      {
-         id: nanoid(),
-         text: 'This is my third note!',
          date: '10.10.2022'
       },
       {
          id: nanoid(),
-         text: 'This is my new note!',
-         date: '28.10.2022'
+         text: 'Вторая заметка!',
+         date: '12.10.2022'
+      },
+      {
+         id: nanoid(),
+         text: 'Третья заметка...',
+         date: '14.10.2022'
       }
    ]);
 
