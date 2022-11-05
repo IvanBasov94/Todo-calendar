@@ -14,11 +14,11 @@ const Note: React.FC<NoteProps> = ({ id, text, date, handleDeleteNote }) => {
    return (
       <div className={styles.note}>
          <span>{text}</span>
-         <div className={styles.note__footer}>
+         <div className={styles.footer}>
             <small>{date}</small>
             <MdDeleteForever
                onClick={() => handleDeleteNote(id)}
-               className={styles.delete__icon}
+               className={styles.deleteIcon}
                size='1.3em'
             />
          </div>

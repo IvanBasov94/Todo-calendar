@@ -19,7 +19,7 @@ interface NotesListProps {
 
 const NotesList: React.FC<NotesListProps> = ({ notes, handleAddNote, handleDeleteNote }) => {
    return (
-      <div className={styles.notes__list}>
+      <div className={styles.list}>
          {notes.map((note) => (
             <Note
                key={note.id}

@@ -24,7 +24,7 @@ const AddNote: React.FC<AddNoteProps> = ({ handleAddNote }) => {
    };
 
    return (
-      <div className={styles.note__new}>
+      <div className={styles.new}>
          <textarea
             onChange={handleChange}
             cols={10}
@@ -33,7 +33,7 @@ const AddNote: React.FC<AddNoteProps> = ({ handleAddNote }) => {
             value={noteText}
          >
          </textarea>
-         <div className={styles.note__footer}>
+         <div className={styles.footer}>
             <small>{characterLimit - noteText.length} Символов</small>
             <button
                className={styles.save}
